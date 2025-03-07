@@ -1,0 +1,19 @@
+<div class="news-slider">
+    <div class="slides">
+        <div class="slide active">
+            <img src="path/to/image1.jpg" alt="Крещение">
+            <p>Крещение</p>
+        </div>
+        <div class="slide">
+            <img src="path/to/image2.jpg" alt="Поездка в Санно-Сторожевский монастырь">
+            <p>Поездка в Санно-Сторожевский монастырь</p>
+        </div>
+        <div class="slide">
+            <img src="path/to/image3.jpg" alt="Паломничество к Преподобному Сергию">
+            <p>Паломничество к Преподобному Сергию</p>
+        </div>
+        <!-- Добавьте остальные новости аналогично -->
+    </div>
+    <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+    <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+</div>
